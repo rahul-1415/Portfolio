@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Babu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml, <svg xmlns='http://www.w3.org/2000/svg' viewBox='220 0 16 16%22'><text y='2214'22 font-size=`2216`22>😊</text></svg>">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: "Gochi Hand", cursive;
+            background-color: #121212;
+            color: #efe6dd;
+            font-size: 20px;
+            background-image: radial-gradient(#212121 2.5px, transparent 1px), radial-gradient(#121215 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
+
+
+        header {
+            background-color: #121212;
+            color: #efe6dd;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'Gochi Hand', cursive;
+            font-size: 80px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #efe6dd;
+            text-decoration: none;
+        }
+
+        .container {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background: rgba(18, 18, 18, 0.8); /* Darker background with transparency */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1); /* Lighter border */
+        }
+
+        section h2 {
+            margin-top: 0;
+        }
+
+        .project-box, .experience-box {
+            border: 1px solid rgba(255, 255, 255, 0.1); /* Lighter border */
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            background: rgba(18, 18, 18, 0.8); /* Darker background with transparency */
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        .experience-header, .role-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .experience-header h3, .role-header h3 {
+            margin: 0;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            font-family: "Gochi Hand", cursive;
+            font-size : 15px;
+        }
+
+        .skill-button, .link-button {
+            background-color: #fff;
+            color: #121212;
+            border: none;
+            padding: 0.25rem 1rem;
+            border-radius: 15px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-family: "Gochi Hand", cursive;
+            font-size: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #121212;
+            color: #efe6dd;
+        }
+            #backToTopBtn {
+                display: none; /* Hidden by default */
+                position: fixed; /* Fixed position */
+                bottom: 20px; /* Place the button at the bottom */
+                right: 30px; /* Place the button 30px from the right */
+                z-index: 99; /* Make sure it does not overlap */
+                border: none; /* Remove borders */
+                outline: none; /* Remove outline */
+                background-color: #fff; /* Set a white background color */
+                color: #000; /* Set the arrow color to black */
+                cursor: pointer; /* Add a mouse pointer on hover */
+                padding: 15px; /* Some padding */
+                border-radius: 50%; /* Rounded corners to make it a circle */
+                font-size: 18px; /* Increase font size */
+            }
+        
+            #backToTopBtn:hover {
+                background-color: #f1f1f1; /* Add a light-grey background on hover */
+            }
+
+        /* Custom Scrollbar Styles */
+        ::-webkit-scrollbar {
+            width: 12px; /* Width of the scrollbar */
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #121212; /* Background color of the scrollbar track */
+            border-radius: 10px; /* Rounded corners for the track */
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #efe6dd; /* Color of the scrollbar thumb */
+            border-radius: 10px; /* Rounded corners for the thumb */
+            border: 3px solid #121212; /* Adds space around the thumb */
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #d4c4b8; /* Color of the scrollbar thumb on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rahul Babu</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Work Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hello! </p><p>I'm Rahul Babu, a passionate and driven Computer Science graduate student at Arizona State University, specializing in the fascinating fields of data analytics, machine learning, AI development, and web development. With a robust technical background and hands-on experience in various cutting-edge projects, I thrive at the intersection of technology and innovation.
+            </p>
+            <p>
+                Beyond my technical skills, I am a strong advocate for collaboration and continuous learning. I believe that the best solutions come from diverse perspectives and a willingness to learn from every experience. This mindset has allowed me to successfully lead projects, work effectively in teams, and contribute meaningfully to the broader goals of the organizations I’ve been a part of.
+            </p>
+           
+            <p>
+                Let’s build something amazing together!
+            </p>
+            <a href="https://github.com/rahul-1415" class="link-button">GitHub</a>
+            <a href="https://www.linkedin.com/in/rahulb1407/" class="link-button">LinkedIn</a>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="experience-box">
+                <div class="experience-header">
+                    <h3>Arizona State University</h3>
+                    <p>Tempe, AZ, USA</p>
+                </div>
+                <div class="role-header">
+                    <p><strong>AI Project Aide</strong></p>
+                    <p>May 2024 - Present</p>
+                </div>
+                <ul>
+                    <li>Developed Selenium automation for data scraping, collecting 795 climate policy articles.</li>
+                    <li>Built the "LLM Response Aggregation Tool" with Selenium IDE, automating the process of running prompts through 6 LLMs.</li>
+                    <li>Trained a custom ChatGPT model using data from c40knowledgehub.org to provide accurate responses on climate action policies.</li>
+                    <li>Developed an RAG system leveraging LLaMA 3, incorporating data cleaning, embedding generation, and an RAG system powered by LLaMA 3.</li>
+                    <li>Built an interactive chat UI with Streamlit and successfully deployed the system on Jetstream2.</li>
+                    <li>Documented the deployment process, ensuring the application was accessible and functional on Jetstream2 using the Exosphere dashboard.</li>
+                </ul>
+            </div>
+            <div class="experience-box">
+                <div class="experience-header">
+                    <h3>Innohat Systems</h3>
+                    <p>Chennai, Tamil Nadu, India</p>
+                </div>
+                <div class="role-header">
+                    <p><strong>RPA Developer Intern</strong></p>
+                    <p>Oct 2021 - Jan 2022</p>
+                </div>
+                <ul>
+                    <li>Gained hands-on experience in RPA and AI, working with UIPath.</li>
+                    <li>Contributed to a healthcare automation project, streamlining healthcare transactions.</li>
+                    <li>Worked on a Purchase Order automation system for a transportation company.</li>
+                    <li>Collaborated on modules for building chatbots, emphasizing teamwork and effective communication.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills">
+                <button class="skill-button">AngularJS</button>
+                <button class="skill-button">Ansible</button>
+                <button class="skill-button">Blockchain</button>
+                <button class="skill-button">C#</button>
+                <button class="skill-button">C/C++</button>
+                <button class="skill-button">Canva</button>
+                <button class="skill-button">CSS</button>
+                <button class="skill-button">Docker</button>
+                <button class="skill-button">Excel/Numbers/Sheets</button>
+                <button class="skill-button">Figma</button>
+                <button class="skill-button">Flask</button>
+                <button class="skill-button">Git</button>
+                <button class="skill-button">HTML</button>
+                <button class="skill-button">HTML/CSS</button>
+                <button class="skill-button">Java</button>
+                <button class="skill-button">JavaScript</button>
+                <button class="skill-button">Jenkins</button>
+                <button class="skill-button">Jupyter</button>
+                <button class="skill-button">Kubernetes</button>
+                <button class="skill-button">Linux/Unix</button>
+                <button class="skill-button">MATLAB</button>
+                <button class="skill-button">MongoDB</button>
+                <button class="skill-button">MySQL</button>
+                <button class="skill-button">Natural Language Processing (NLP)</button>
+                <button class="skill-button">NoSQL</button>
+                <button class="skill-button">PHP</button>
+                <button class="skill-button">Pytorch</button>
+                <button class="skill-button">Python</button>
+                <button class="skill-button">React.js</button>
+                <button class="skill-button">Selenium</button>
+                <button class="skill-button">Solidity</button>
+                <button class="skill-button">SQL</button>
+                <button class="skill-button">Web Development</button>
+                <button class="skill-button">Word/Pages/Docs</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-box">
+                <div class="experience-header">
+                    <h3>Forest Monitoring using Hyperspectral Imaging</h3>
+                    <p><strong>Nov 2022 - May 2023</strong></p>
+                </div>
+                <p>This project focuses on utilizing hyperspectral imaging for forest terrain monitoring, aiming to provide detailed insights into forest contents and potential risks. It utilizes the Indian Pines dataset, which captures hyperspectral data from a forested area, and employs a hybrid classification method, including Support Vector Machines (SVM), 2D Convolutional Neural Networks (CNN), 3D CNN, M3D-CNN, SSRN, and a Hybrid model for precise forest analysis.</p>
+                <ul>
+                    <li>Utilized Indian Pines dataset for hyperspectral imaging.</li>
+                    <li>Employed hybrid classification methods combining SVM, 2D CNN, 3D CNN, M3D-CNN, SSRN, and a Hybrid model.</li>
+                    <li>Provided comprehensive insights including vegetation cover percentage, building presence, and hazard detection.</li>
+                </ul>
+                <p class="skill-button">Scikit-Learn</p>
+                <p class="skill-button">Machine Learning</p>
+                <p class="skill-button">TensorFlow</p>
+                <p class="skill-button">Exploratory Data Analysis</p>
+                <p class="skill-button">NumPy</p>
+                <p class="skill-button">Data Science</p>
+                <p class="skill-button">Data Analysis</p>
+                <p class="skill-button">Python</p>
+                <p class="skill-button">Pandas</p>
+
+            </div>
+
+            <div class="project-box">
+                <div class="experience-header">
+                    <h3>IoT Device Manager using Blockchain</h3>
+                    <p><strong>Jan 2023 - May 2023</strong></p>
+                </div>
+                <p>This project focuses on establishing a robust and secure framework for the management of IoT devices, underpinned by the principles of data immutability and transparency, all facilitated by the innovative use of blockchain technology.</p>
+                <ul>
+                    <li>Implemented a blockchain-based solution for IoT device management.</li>
+                    <li>Recorded critical transactions including device registration, management, and ownership transfers.</li>
+                    <li>Developed a user-friendly web application using ReactJS.</li>
+                </ul>
+                <p class="skill-button">MetaMask</p>
+                <p class="skill-button">Truffle Framework</p>
+                <p class="skill-button">Ganache</p>
+                <p class="skill-button">Solidity</p>
+                <p class="skill-button">React.js</p>
+
+            </div>
+
+            <div class="project-box">
+                <div class="experience-header">
+                    <h3>Web Phishing Detection</h3>
+                    <p><strong>Aug 2022 - Nov 2022</strong></p>
+                </div>
+                <p>The Web Phishing Detection project is a Python-based solution deployed on the IBM Cloud platform, focused on the detection of phishing websites. It incorporates machine learning techniques to enhance accuracy.</p>
+                <ul>
+                    <li>Trained 10 machine learning models for phishing detection.</li>
+                    <li>Deployed the highest accuracy model on IBM Cloud.</li>
+                    <li>Developed a website interface for user interaction with the phishing detection system.</li>
+                </ul>
+                <p class="skill-button"> Machine Learning</p>
+                <p class="skill-button"> Exploratory Data Analysis</p>
+                <p class="skill-button"> Data Science</p>
+                <p class="skill-button"> Data Analysis</p>
+                <p class="skill-button"> Python</p>
+            </div>
+
+            <div class="project-box">
+                <div class="experience-header">
+                    <h3>Path Navigation using Deep Q Learning</h3>
+                    <p><strong>Jan 2022 - Sep 2022</strong></p>
+                </div>
+                <p>An application developed using Kivy and PyTorch Framework. The application simulates an autonomous vehicle navigating a map I designed, complete with manually placed obstacles.</p>
+                <ul>
+                    <li>Used Deep Q Networks (DQNs) with relu activation functions for navigation.</li>
+                    <li>Designed a reward system to improve obstacle avoidance capabilities.</li>
+                    <li>Received approval for publication in ADCOM Volume 133.</li>
+                </ul>
+                <p class = "skill-button"> Machine Learning</p>
+                <p class = "skill-button"> NumPy</p>
+                <p class = "skill-button"> Python</p>
+            </div>
+
+            <div class="project-box">
+                <div class="experience-header">
+                    <h3>Tournament Manager</h3>
+                    <p><strong>Jul 2021 - Nov 2021</strong></p>
+                </div>
+                <p>The Tournament Manager is a Java-based application designed to facilitate the efficient organization of sports tournaments.</p>
+                <ul>
+                    <li>Designed and configured tournaments for different divisions and sports.</li>
+                    <li>Streamlined team enrollment and player information updates.</li>
+                    <li>Developed using Java and MySQL.</li>
+                </ul>
+                <p class="skill-button"> Java</p>
+            </div>
+
+            <div class="project-box">
+                <div class="experience-header">
+                    <h3>Harmful Comments Classifier</h3>
+                    <p><strong>Jan 2021 - Apr 2021</strong></p>
+                </div>
+                <p>The "Harmful Comments Classifier" is a Python-based Natural Language Processing (NLP) project, executed within the Google Colab environment.</p>
+                <ul>
+                    <li>Developed a deep learning model for classifying comments based on toxicity.</li>
+                    <li>Utilized embedding techniques, bi-directional LSTM, and dense models.</li>
+                    <li>Executed within the Google Colab environment.</li>
+                </ul>
+                <p class="skill-button"> Machine Learning</p>
+                <p class="skill-button"> Exploratory Data Analysis</p>
+                <p class="skill-button"> Data Science</p>
+                <p class="skill-button"> Data Analysis</p>
+                <p class="skill-button"> Python</p>
+            </div>
+
+            <div class="project-box">
+                <div class="experience-header">
+                    <h3>EATERIO</h3>
+                    <p><strong>Jan 2020 - May 2020</strong></p>
+                </div>
+                <p>"EATERIO" is a web application built using HTML, CSS, JavaScript, and MongoDB, designed to facilitate food ordering and management within organizations.</p>
+                <ul>
+                    <li>Streamlined the food ordering process within organizations.</li>
+                    <li>Developed using HTML, CSS, JavaScript, and MongoDB.</li>
+                    <li>Provided a user-friendly interface for placing and managing food orders.</li>
+                </ul>
+                <p class="skill-button"> HTML</p>
+                <p class="skill-button"> CSS</p>
+                <p class="skill-button"> JavaScript</p>
+                <p class="skill-button"> MongoDB</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p><i class="fas fa-envelope"></i> 
+                <a href="mailto:rahulb1407@gmail.com" style="color: #fff;">rahulb1407@gmail.com</a></p>
+        </div>
+    </section>
+
+        <button onclick="topFunction()" id="backToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <footer>
+        <p>&copy; 2024 Rahul Babu</p>
+    </footer>
+</body>
+</html>
